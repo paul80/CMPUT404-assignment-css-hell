@@ -1,0 +1,377 @@
+@font-face {
+    font-family: "eadui";
+    src: url("../font/eadui/Eadui.ttf");
+}
+
+body {
+    font-family: "eadui";
+    background-image: url("../img/paper.jpg");
+    background-repeat: repeat;
+    margin-left:10%;
+    margin-right:10%;
+    font-size: large;
+}
+
+pre {
+  color: gray;
+  font-size: 85%; 
+  text-align:center;
+}
+
+h1 {
+    clear:both;
+    padding-top:2.5em;
+    text-align:center;
+}
+
+h2 {
+    clear:both;
+    line-height:1.75em;
+    padding-top:2.5em;
+    text-align:center;
+}
+
+h2#tnote {
+    padding-top:0;
+}
+
+p {
+    margin-bottom:.75em;
+    margin-top:.75em;
+    text-align:justify;
+}
+
+hr {
+    clear:both;
+    margin:2em auto;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+p#dedication {
+    padding:3.5em 0 2em;
+    text-align:center;
+}
+
+p.center {
+  padding: 0.1em 0 0.5em;
+  text-align:center;
+}
+
+p.p-top::first-letter {
+    font-size: 200%
+}
+
+p.ralign {
+    margin-right:0.5em;
+    text-align:right;
+}
+
+p.caption {
+    font-size:85%;
+    line-height:0.5em;
+    text-align:center;
+    font-style: italic;
+}
+
+div.tn {
+    background-color:#CFC;
+    border:solid #38610B 1px;
+    font-size:80%;
+    margin:10%;
+    padding:1em;
+}
+
+div.figcenter {
+    margin:auto;
+    padding:1em;
+    text-align:center;
+}
+
+div.pad-top {
+    padding-bottom:0;
+    padding-top:4em;
+}
+
+span.pagenum {
+    color:#A9A9A9;
+    font-size:small;
+    font-style:normal;
+    left:92%;
+    position:absolute;
+    text-align:right;
+}
+
+.center {
+    text-align:center;
+}
+
+.smcap {
+    font-variant:small-caps;
+}
+
+.xsm {
+    font-size:75%;
+}
+
+.sm {
+    font-size:85%;
+}
+
+.med {
+    font-size:115%;
+}
+
+.poem {
+    margin-left:10%;
+    margin-right:10%;
+    text-align:left;
+}
+
+.poem br {
+    display:none;
+}
+
+.poem .stanza {
+    margin:1em 0;
+}
+
+.poem span.i0 {
+    display:block;
+    margin-left:0;
+    padding-left:3em;
+    text-indent:-3em;
+}
+
+.poem span.i2 {
+    display:block;
+    margin-left:2em;
+    padding-left:3em;
+    text-indent:-3em;
+}
+
+.poem span.i4 {
+    display:block;
+    margin-left:4em;
+    padding-left:3em;
+    text-indent:-3em;
+}
+
+hr.full { 
+        width: 100%;
+        margin-top: 3em;
+        margin-bottom: 0em;
+        margin-left: auto;
+        margin-right: auto;
+        height: 4px;
+        border-width: 4px 0 0 0; /* remove all borders except the top one */
+        border-style: solid;
+        border-color: #000000;
+        clear: both; 
+}
+
+/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+
+P {
+    text-indent: 4% 
+}
+
+P.noindent {
+    text-indent: 0% 
+}
+
+P.poem {
+    text-indent: 0%;
+    margin-left: 10%;
+    font-size: small 
+}
+
+P.footnote {
+    font-size: small ;
+    text-indent: 0% ;
+    margin-left: 0% ;
+    margin-right: 0% 
+}
+
+P.transnote {font-size: small ;
+     text-indent: 0% ;
+     margin-left: 0% ;
+     margin-right: 0% 
+ }
+
+P.finis { text-align: center ;
+  text-indent: 0% ;
+  margin-left: 0% ;
+  margin-right: 0% 
+}
+
+p {
+    margin-top:.2em;
+    text-align:justify;
+    margin-bottom:.2em;
+    text-indent:4%;
+}
+
+.c {
+    text-align:center;
+    text-indent:0%;
+}
+
+.cb {
+    text-align:center;
+    text-indent:0%;
+    font-weight:bold;
+}
+
+.cbs {
+    text-align:center;
+    text-indent:0%;
+    font-weight:bold;
+    font-family: sans-serif, serif;
+    font-size:70%;
+}
+
+.errata {
+    color:red;
+    text-decoration:underline;
+}
+
+.letra {
+    margin: 2% auto 1% auto;
+    text-align:center;
+    text-indent:0%;
+}
+
+.nind {
+    text-indent:0%;
+}
+
+.r {
+    text-align:right;
+    margin-right: 5%;
+}
+
+small {
+    font-size: 80%;
+    font-weight:normal;
+}
+
+hr {
+    width:90%;
+    margin:2em auto 2em auto;
+    clear:both;
+    color:black;
+}
+
+hr.dbl {
+    width: 90%;
+    margin:.5% auto .5% auto;
+    border:4px double gray;
+}
+
+hr.full {
+    width: 50%;
+    margin:5% auto 5% auto;
+    border:4px double gray;
+}
+
+table {
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-left:auto;
+    margin-right:auto;
+    border:none;
+    text-align:left;
+}
+
+.un {
+    text-decoration:underline;
+    text-indent:0%;
+    margin:2% auto 2% 15%;
+}
+
+a:link {
+    color:blue;
+    text-decoration:none;
+}
+
+link {
+    color:blue;
+    text-decoration:none;
+}
+
+a:visited {
+    color:purple;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#FF0000;
+    text-decoration:underline;
+}
+
+.smcap  {
+    font-variant:small-caps;
+    font-size:100%;
+}
+
+img {
+    border:none;
+}
+
+.blockquot {
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+.blockquot2 {
+    margin:2% 20% 2% 20%;
+}
+
+.boxx {
+    border:solid 1px black;
+    padding:1%;
+    margin:1% auto 3% auto;
+    max-width:50%;
+}
+
+.boxxx {
+    border:none;
+    padding:1%;
+
+    margin:1% auto 3% auto;
+    max-width:50%;
+}
+
+sub {
+    font-size:70%;
+    vertical-align:bottom;
+}
+
+.figcenter {
+    margin-top:3%;
+    margin-bottom:3%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    text-indent:0%;
+}
+
+td {
+    padding-bottom:1em;
+}
