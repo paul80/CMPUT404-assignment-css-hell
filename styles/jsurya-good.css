@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "roboto-black";
+    src: url("../font/roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+	font-family: "roboto";
+    src: url("../font/roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+	font-family: "roboto-medium";
+    src: url("../font/roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+	font-family: "roboto-italic";
+    src: url("../font/roboto/Roboto-Italic.ttf");
+}
+
+.header {
+	width:100%;
+	text-align:center;
+	font-family: "roboto";
+	padding: 25pt 10pt 5pt 10pt;
+}
+
+h2 {
+	font-family: "roboto-medium";
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+	}
+	
+a:visited {
+	color:gray;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight:bold;
+}
+
+a:active {
+	color: red;
+}
+	
+p {
+	font-family: "roboto";
+
+}
+
+img {
+	border-radius:50% 50% 50% 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+	width:150px;
+	height:150px;
+	margin-bottom: 1em;
+}
+	
+body {
+	font-family: "roboto";
+	background-image: url("../img/cute_tee_grass.jpg");
+	background-repeat: no-repeat;
+}
+
+.top-section {
+	margin-top: -20pt;
+
+}
+
+.sidebar {
+	float: right;
+	width:30%;
+	height: 100%;
+	font-family: "roboto";
+	font-size: large;
+	padding-top: 100pt;
+}
+	
+.menu  li {
+	display:inline;
+	padding:10pt;
+	font-size: 150%;
+}
+
+.content {
+	width: 70%;
+	height: 100%;
+	float: left;
+	margin-left: 50pt;
+	margin-top: -100pt;
+
+}
+
+.inner-list {
+	width:50%;
+	margin-left:50em; 
+}
+
+ul li {
+	font-family:"roboto";
+	list-style-type: square;
+}
+
+h1 {
+	font-style: italic;
+	color: gray;
+}
+
+.name {
+	font-family: "roboto-black";
+	font-weight: bold;
+	margin-left: 10pt;
+	margin-right: 40pt;
+	font-size: 500%;
+	float: left;
+	margin-bottom: 30pt;
+	color: white;
+}
+
+.about {
+	float:left;
+	clear:left;
+	font-size: 120%
+}	
+
+.container {
+	float:left;
+	margin-top: 100pt;
+	padding-top: 2em;
+		background-image: url("../img/green.png");
+}
+
+.history {
+	width: 45%;
+	height: 100%;
+	float:left;
+	margin-left: 50pt;
+	margin-bottom: 50pt;
+		
+}
+
+.skills {
+	float:right;
+	width: 45%;
+	margin-right: 20pt;
+}
+
+.date-location {
+	font-family: "roboto-italic"
+}
+
+.indent {
+	margin-left: 2em;
+}
+

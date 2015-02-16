@@ -36,11 +36,13 @@ CMPUT 410 Winter 2015 Assignment Submission
 
 ### Resources
 
+
+#### Part I
 Paper background (paper.png) is from [becuo](http://becuo.com/seamless-backgrounds-white)
 
 Font is [Eadui](http://openfontlibrary.org/en/font/eadui) by Peter S. Baker (C) 2011 under the OFL (SIL Open Font License)
 
-### Styling Modifications
+##### Styling Modifications
 * Theme paragraphs with CSS:
 	- The first letter of every chapter is displayed 200% larger than the rest
 * Theme header tags with CSS
@@ -53,6 +55,11 @@ Font is [Eadui](http://openfontlibrary.org/en/font/eadui) by Peter S. Baker (C) 
 	- Body font is set to [Eadui](http://openfontlibrary.org/en/font/eadui)
 	- Body background is set to a tiled paper
 
-### HTML Modifications
+##### HTML Modifications
 * ```<link>``` tag for CSS file was added to every text
 * In ["Japanese Fairy Tales"](http://www.gutenberg.org/ebooks/35853) and ["Frankenstein; Or, The Modern Prometheus"](http://www.gutenberg.org/ebooks/84), the first paragraph of every chapter was assigned ```class="p-top" ```
+
+#### Part II
+Font in Jessica's webpage is [Roboto](http://www.fontsquirrel.com/fonts/roboto) by Christian Robertson (C) 2012 under the Apache License v2.00
+
+Circular profile picture is created based off [Circular Images with CSS3](http://bavotasan.com/2011/circular-images-with-css3/) tutorial by C. Bavota (C) 2011

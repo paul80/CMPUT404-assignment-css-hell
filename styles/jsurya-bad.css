@@ -1,0 +1,150 @@
+.header {
+	width:100%;
+	text-align:center;
+	font-family: "Comic Sans MS";
+	padding: 25pt 10pt 5pt 10pt;
+	background-color: MediumOrchid;
+}
+
+h2 {
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+}
+
+a:link {
+
+	text-decoration: none;
+	color:Plum ;
+}
+	
+a:visited {
+	color:MediumTurquoise;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight:bold;
+}
+
+a:active {
+	color: Pink;
+}
+	
+p {
+	font-family: "Comic Sans MS";
+
+}
+
+img {
+	border-radius:50% 50% 50% 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+	width:150px;
+	height:150px;
+	margin-bottom: 1em;
+}
+	
+body {
+	font-family: "Comic Sans MS";
+	background-image: url("../img/stars-pi.gif");
+}
+
+.top-section {
+	margin-top: -20pt;
+
+}
+
+.sidebar {
+	float: right;
+	width:30%;
+	height: 100%;
+	font-family: "Comic Sans MS";
+	font-size: large;
+	padding-top: 20pt;
+	background-color: yellow;
+	padding-left: 2em;
+	border: 1px solid red;
+}
+	
+.menu  li {
+	display:inline;
+	padding:10pt;
+	font-size: 150%;
+}
+
+.content {
+	width: 70%;
+	height: 100%;
+	float: left;
+	margin-left: 50pt;
+	margin-top: -100pt;
+	font-family: "Comic Sans MS";
+
+}
+
+.inner-list {
+	width:50%;
+	margin-left:50em; 
+}
+
+ul li {
+	font-family: "Comic Sans MS";
+	list-style-type: square;
+}
+
+h1 {
+	font-style: italic;
+	color: gray;
+}
+
+.name {
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+	margin-left: 10pt;
+	margin-right: 40pt;
+	font-size: 500%;
+	float: left;
+	margin-bottom: 30pt;
+	color: orange;
+}
+
+.about {
+	float:left;
+	clear:left;
+	font-size: 120%;
+	padding-right:20pt; 
+	border: 1px solid LimeGreen;
+	background-color: green;
+}	
+
+.container {
+	float:left;
+	margin-top: 100pt;
+	padding-top: 2em;
+}
+
+.history {
+	width: 45%;
+	height: 100%;
+	float:left;
+	margin-left: 50pt;
+	margin-bottom: 50pt;
+	background-color: DeepPink;
+}
+
+.skills {
+	float:right;
+	width: 45%;
+	margin-right: 20pt;
+	background-color: LightCoral;
+}
+
+.date-location {
+	font-family: "Comic Sans MS";
+	font-style: italic;
+}
+
+.indent {
+	margin-left: 2em;
+}
+

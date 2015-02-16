@@ -1,0 +1,96 @@
+.header {
+	top:0pt;
+	left:0pt;
+	width:100%;
+	position:fixed;
+	text-align:center;
+	font-family: Times New Roman;
+	background-color: #FF00FF;
+	padding: 10pt 10pt 10pt 10pt;	
+	z-index:5;
+}
+
+h1 {
+	font-style: italic;
+	color: LimeGreen;
+	text-align:center;
+
+}
+.intro {
+	position: relative;
+	top: -10px;
+	
+}
+.content {
+	float: left;
+}
+.nav {
+	float:right;
+	width:30%;
+	background-color: Yellow;
+	font-family: Verdana;
+	padding: 10pt 10pt 10pt 10pt;
+	margin-top: 0pt;
+	margin-right: -20pt;
+	color: Red;
+	clear:both;
+}
+.nav ul li {
+	list-style: upper-roman;
+	font-weight:bolder;
+}
+body {
+	margin-top: 100pt;
+}
+.sentences {
+	font-family: Helvetica;
+	color: Blue;
+	font-weight: Bold;
+	text-decoration: underline;
+	
+}
+.menu  li {
+	display:inline;
+	padding:10pt;
+	background-color: #FFA500;
+	color: Red;
+}
+
+.image {
+	width:250px;
+	height:150px;
+	margin-right: 20px;
+}
+
+a:link {
+	text-decoration: none;
+}
+	
+a:visited {
+	color:#9400D3;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight:bold;
+}
+
+a:active {
+	color: Red;
+}
+
+span.skill {
+	font-size:14pt;
+	font-weight:bold;
+}
+
+.skill_list {
+	font-family:Agency FB;
+	list-style-type: lower-latin;
+	color:Purple;
+}
+
+.skill_list li {
+	 margin-top: 5pt;
+}
