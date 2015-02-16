@@ -6,13 +6,17 @@
 	text-align:center;
 	font-family: Verdana;
 	background-color: #FF00FF;
-	padding: 10pt 10pt 10pt 10pt;
-	
+	padding: 10pt 10pt 10pt 10pt;	
+}
+
+.name {
+	font-size: 15pt;
+	font-style: italic;
 }
 
 a:link {
 	text-decoration: none;
-	}
+}
 	
 a:visited {
 	color:#9400D3;
@@ -23,22 +27,25 @@ a:hover {
 	text-decoration: none;
 	font-weight:bold;
 }
+
 a:active {
 	color: Red;
 }
 	
-p {
+.sentences{
 	font-family: Verdana;
-	}
+	color: Red;
+}
 	
-img {
+.image {
 	width:200px;
 	height:200px;
-	}
+}
 	
 body {
-	margin-top:100pt;
-	}
+	margin-top:120pt;
+}
+
 .sidebar {
 	float:right;
 	width:20%;
@@ -47,22 +54,26 @@ body {
 	padding: 10pt 10pt 10pt 10pt;
 	margin-top: -25pt;
 	margin-right: -20pt;
-	}
+	color: Red;
+}
 	
 .menu  li {
 	display:inline;
 	padding:10pt;
 	background-color: #FFA500;
-	}
+	color: Red;
+}
 
-ul li {
+.skill_list {
 	font-family:Verdana;
 	list-style-type: square;
-	}
+	color:Red;
+}
+
 h1 {
 	font-style: italic;
 	color: LimeGreen;
-	}
+}
 
 
 	
