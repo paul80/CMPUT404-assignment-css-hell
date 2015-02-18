@@ -4,11 +4,11 @@
 	width:100%;
 	text-align:center;
 	font-family: "Trebuchet MS";
-	font-size: 17pt;
+	font-size: 30pt;
 	position:absolute;
 	background-color: #d34836;
 	color: White;
-	height: 60pt;
+	height: 66pt;
 	position: fixed;
 	z-index: 10;
 }
@@ -26,12 +26,11 @@ h1 {
 	float: left;
 }
 .nav {
-	height: 200pt;
+	height: 170pt;
 	width: 140pt;
 	float:right;
 	padding: 5px;
-	margin-right:-6pt;
-	margin-top: -15pt;
+	margin-top: -10pt;
 	font-family: "Trebuchet MS";
 	clear:both;
 	background-color: #d2d2d2;
@@ -40,21 +39,27 @@ h1 {
 	list-style: square;
 }
 body {
-	margin-top: 100pt;
+	margin-top: 110pt;
+	margin-right: 26pt;
+	margin-left: 26pt;
 }
 .sentences {
 	font-family: "Trebuchet MS";
 	
 }
+
+.menu {
+	margin-top: -2pt;
+}
 .menu  li{
 	display:inline;
-	padding:50pt 50pt 50pt 50pt;
-	font-size: 12pt;
+	padding:60pt 60pt 60pt 60pt;
+	font-size: 14pt;
 }
 
 .image {
-	width:150px;
-	height:150px;
+	width:100pt;
+	height:110pt;
 	margin-right: 20px;
 }
 

@@ -21,6 +21,7 @@
 .header {
 	width:100%;
 	text-align:center;
+	font-weight: bold;
 	font-family: "roboto";
 	padding: 25pt 10pt 5pt 10pt;
 }
@@ -76,8 +77,8 @@ body {
 	float: right;
 	width:30%;
 	height: 100%;
-	font-family: "roboto";
-	font-size: large;
+	font-family: "roboto-medium";
+	font-size: x-large;
 	padding-top: 100pt;
 }
 	
@@ -92,7 +93,7 @@ body {
 	height: 100%;
 	float: left;
 	margin-left: 50pt;
-	margin-top: -100pt;
+	margin-top: -150pt;
 
 }
 
@@ -104,6 +105,7 @@ body {
 ul li {
 	font-family:"roboto";
 	list-style-type: square;
+
 }
 
 h1 {
@@ -118,19 +120,19 @@ h1 {
 	margin-right: 40pt;
 	font-size: 500%;
 	float: left;
-	margin-bottom: 30pt;
+	margin-bottom: 10pt;
 	color: white;
 }
 
 .about {
 	float:left;
 	clear:left;
-	font-size: 120%
+	font-size: 150%
 }	
 
 .container {
 	float:left;
-	margin-top: 100pt;
+	margin-top: 80pt;
 	padding-top: 2em;
 		background-image: url("../img/green.png");
 }
@@ -141,13 +143,14 @@ h1 {
 	float:left;
 	margin-left: 50pt;
 	margin-bottom: 50pt;
-		
+	font-size: 130%	
 }
 
 .skills {
 	float:right;
 	width: 45%;
 	margin-right: 20pt;
+	font-size: 130%	
 }
 
 .date-location {
